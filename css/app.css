@@ -20,7 +20,7 @@ img{
 }
 
 
-/* DEBUG UTILITY */
+/* UTILITY FIRST */
 
 .txtc{
     text-align: center;
@@ -29,6 +29,11 @@ img{
 .txtr{
     text-align: right;
 }
+
+
+
+/* DEBUG UTILITY */
+
 
 .debug .bg-orange{
     background-color: orange;
