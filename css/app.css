@@ -188,8 +188,14 @@ img{
     border: dashed 2px rgb(0, 0, 0);
 }
 
+.box-701{
+    height: 701px;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
 .col-dpinkazure{
-    height: 650px;
+    height: 600px;
 }
 
 
