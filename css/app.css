@@ -136,12 +136,17 @@ img{
 
 /* HEADER */
 
-.main-header{
+.box-100{
     background-color: lightblue;
     height: 100px;
     padding: 20px;
+    align-items: center;
 }
 
+.col-orange{
+    height: 50px;
+    background-color: orange;
+}
 
 
 
