@@ -156,12 +156,14 @@ img{
 .box-500{
     height: 500px;
     align-items: center;
+    justify-content: center;
 }
 
 
 .col-fuchsia{
     border: 2px dashed black;
     height: 400px;
+    width: 700px;
     border-radius: 2%;
 }
 
@@ -172,7 +174,7 @@ img{
 }
 
 .col-pink-blue{
-    height: 500px;
+    height: 600px;
     border: dashed 2px rgb(0, 0, 0);
 }
 
