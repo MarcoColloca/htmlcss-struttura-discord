@@ -159,7 +159,6 @@ img{
 
 
 .col-fuchsia{
-    border: 2px dashed black;
     height: 400px;
     width: 700px;
     border-radius: 2%;
@@ -173,7 +172,6 @@ img{
 
 .col-pink-blue{
     height: 600px;
-    border: dashed 2px rgb(0, 0, 0);
 }
 
 .box-1100{
@@ -183,7 +181,6 @@ img{
 
 .col-green{
     height: 1000px;
-    border: dashed 2px rgb(0, 0, 0);
 }
 
 .box-701{
