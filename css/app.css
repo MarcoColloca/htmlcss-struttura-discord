@@ -155,14 +155,13 @@ img{
 
 .box-500{
     height: 500px;
-    padding: 100px;
     align-items: center;
 }
 
 
 .col-fuchsia{
     border: 2px dashed black;
-    height: 300px;
+    height: 400px;
     border-radius: 2%;
 }
 
