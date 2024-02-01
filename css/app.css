@@ -20,6 +20,13 @@ img{
 }
 
 
+/* UTILITY */
+
+.bg-orange{
+    background-color: orange;
+}
+
+
 /* LAYOUT  */
 
 .conteiner{
