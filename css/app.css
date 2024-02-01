@@ -77,6 +77,16 @@ img{
 .bg-black{
     background-color: rgb(15, 15, 15);
 }
+.borderdashwhite{
+    border: dashed 2px white;
+}
+
+.borderdashblack{
+    border: dashed 2px rgb(0, 0, 0);
+}
+
+
+
 
 /* LAYOUT  */
 
@@ -146,7 +156,7 @@ img{
 
 
 .col-fuchsia{
-    border: 1px dashed black;
+    border: 2px dashed black;
     height: 300px;
     border-radius: 2%;
 }
@@ -159,6 +169,7 @@ img{
 
 .col-pink-blue{
     height: 500px;
+    border: dashed 2px rgb(0, 0, 0);
 }
 
 .box-1100{
@@ -168,6 +179,7 @@ img{
 
 .col-green{
     height: 1000px;
+    border: dashed 2px rgb(0, 0, 0);
 }
 
 .col-dpinkazure{
@@ -183,7 +195,8 @@ img{
 .debug .row{
 }
 
+
 .debug [class^='col']{
     min-height: 50px;
-    border: dashed 2px rgb(0, 0, 0);
+    /* border: dashed 2px rgb(0, 0, 0); */
 }
