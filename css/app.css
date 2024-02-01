@@ -52,3 +52,11 @@ img{
 
 /* DEBUG RULES */
 
+.debug .conteiner{
+    border: 2px dashed black;
+    padding: 20px;
+}
+
+.debug .row{
+    border: 2px dashed black;
+}
