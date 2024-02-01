@@ -32,8 +32,12 @@ img{
     flex-wrap: wrap;
 }
 
-.col{
+.col-25{
+    width: 25%;
+}
 
+.col-50{
+    width: 50%;
 }
 
 
@@ -45,8 +49,10 @@ img{
     padding: 20px;
 }
 
-
-
+.colh{
+    
+    border: 1px dashed black;
+}
 
 
 
@@ -55,9 +61,15 @@ img{
 
 .debug .conteiner{
     border: 2px dashed black;
-    padding: 20px;
 }
 
 .debug .row{
     border: 2px dashed black;
+}
+
+.debug [class^='col']{
+    padding: 20px;
+    min-height: 50px;
+    border-left: dashed 2px rgb(0, 0, 0);
+    border-right: dashed 2px rgb(0, 0, 0);
 }
