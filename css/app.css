@@ -34,6 +34,34 @@ img{
     background-color: orange;
 }
 
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-lblue{
+    background-color: lightblue;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-fuchsia{
+    background-color: rgb(255, 113, 255);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-gray{
+    background-color: rgb(180, 180, 180);
+}
+
+.flexrev{
+    flex-direction: row-reverse;
+}
+
 
 /* LAYOUT  */
 
@@ -51,9 +79,26 @@ img{
     width: 25%;
 }
 
+.col-40{
+    width: 40%;
+}
+
 .col-50{
     width: 50%;
 }
+
+.col-60{
+    width: 60%;
+}
+
+
+.col-100{
+    width: 100%;
+}
+
+
+
+
 
 
 /* HEADER */
@@ -64,10 +109,37 @@ img{
     padding: 20px;
 }
 
-.colh{
-    
-    border: 1px dashed black;
+
+
+
+
+/* MAIN */
+
+.box-500{
+    height: 500px;
+    padding: 100px;
+    align-items: center;
 }
+
+
+.col-fuchsia{
+    border: 1px dashed black;
+    height: 300px;
+    border-radius: 2%;
+}
+
+
+.box-700{
+    height: 700px;
+    align-items: center;
+}
+
+.col-pink-blue{
+    height: 400px;
+}
+
+
+
 
 
 
@@ -75,16 +147,12 @@ img{
 /* DEBUG RULES */
 
 .debug .conteiner{
-    border: 2px dashed black;
 }
 
 .debug .row{
-    border: 2px dashed black;
 }
 
 .debug [class^='col']{
-    padding: 10px;
     min-height: 50px;
-    border-left: dashed 2px rgb(0, 0, 0);
-    border-right: dashed 2px rgb(0, 0, 0);
+    border: dashed 2px rgb(0, 0, 0);
 }
