@@ -38,6 +38,14 @@ img{
     background-color: blue;
 }
 
+.bg-azure {
+    background-color: rgb(1, 153, 153);
+}
+
+.bg-darkpink{
+    background-color: rgb(180, 84, 100);
+}
+
 .bg-lblue{
     background-color: lightblue;
 }
@@ -58,10 +66,17 @@ img{
     background-color: rgb(180, 180, 180);
 }
 
+.bg-green{
+    background-color: darkgreen;
+}
+
 .flexrev{
     flex-direction: row-reverse;
 }
 
+.bg-black{
+    background-color: rgb(15, 15, 15);
+}
 
 /* LAYOUT  */
 
@@ -73,6 +88,14 @@ img{
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+
+.col-d6{
+    width: calc(100%/6)
+}
+
+.col-d6x2{
+    width: calc(100%/6*2);
 }
 
 .col-25{
@@ -135,13 +158,21 @@ img{
 }
 
 .col-pink-blue{
-    height: 400px;
+    height: 500px;
 }
 
+.box-1100{
+    height: 1100px;
+    align-items: center;
+}
 
+.col-green{
+    height: 1000px;
+}
 
-
-
+.col-dpinkazure{
+    height: 650px;
+}
 
 
 /* DEBUG RULES */
