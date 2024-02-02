@@ -30,7 +30,9 @@ img{
     text-align: right;
 }
 
-
+.flexrev{
+    flex-direction: row-reverse;
+}
 
 /* DEBUG UTILITY */
 
@@ -75,9 +77,6 @@ img{
     background-color: darkgreen;
 }
 
-.debug .flexrev{
-    flex-direction: row-reverse;
-}
 
 .debug .bg-black{
     background-color: rgb(15, 15, 15);
